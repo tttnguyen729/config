@@ -11,5 +11,8 @@ set cul
 " Disable error beeping sound
 set visualbell
 
+" Set map leader
+let mapleader = " "
+
 " Set space to update (save) the file
-nnoremap <Space> :update<CR>
+nnoremap <Leader>s :update<CR>
